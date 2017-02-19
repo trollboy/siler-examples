@@ -3,7 +3,8 @@
     "description": "Project samples using Siler",
     "type": "project",
     "require": {
-        "leocavalcante/siler": "dev-master"
+        "leocavalcante/siler": "dev-master",
+        "twig/twig": "^2.1"
     },
     "license": "MIT",
     "authors": [
