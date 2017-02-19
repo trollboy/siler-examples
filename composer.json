@@ -4,7 +4,8 @@
     "type": "project",
     "require": {
         "leocavalcante/siler": "dev-master",
-        "twig/twig": "^2.1"
+        "twig/twig": "^2.1",
+        "vlucas/phpdotenv": "^2.4"
     },
     "license": "MIT",
     "authors": [
