@@ -1,0 +1,16 @@
+{
+    "name": "leocavalcante/siler-examples",
+    "description": "Project samples using Siler",
+    "type": "project",
+    "require": {
+        "leocavalcante/siler": "dev-master"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "leocavalcante",
+            "email": "lc@leocavalcante.com"
+        }
+    ],
+    "minimum-stability": "dev"
+}
