@@ -12,12 +12,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/leocavalcante/siler.git",
-                "reference": "3a0b876c632efe2c789ae842511b56cc7c4c5a44"
+                "reference": "3d24558c289c2b0b8a11fd447e6218735aa69bde"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/leocavalcante/siler/zipball/3a0b876c632efe2c789ae842511b56cc7c4c5a44",
-                "reference": "3a0b876c632efe2c789ae842511b56cc7c4c5a44",
+                "url": "https://api.github.com/repos/leocavalcante/siler/zipball/3d24558c289c2b0b8a11fd447e6218735aa69bde",
+                "reference": "3d24558c289c2b0b8a11fd447e6218735aa69bde",
                 "shasum": ""
             },
             "require": {
@@ -31,8 +31,14 @@
                 "twig/twig": "*",
                 "vlucas/phpdotenv": "*"
             },
+            "suggest": {
+                "vlucas/phpdotenv": "Storing configuration in the environment is one of the tenets of a twelve-factor app."
+            },
             "type": "library",
             "autoload": {
+                "psr-4": {
+                    "Siler\\": "src/"
+                },
                 "files": [
                     "src/Siler.php",
                     "src/Container/Container.php",
@@ -42,8 +48,7 @@
                     "src/Route/Route.php",
                     "src/Dotenv/Dotenv.php",
                     "src/Twig/Twig.php",
-                    "src/Ratchet/Ratchet.php",
-                    "src/Ratchet/MessageComponent.php"
+                    "src/Ratchet/Ratchet.php"
                 ]
             },
             "notification-url": "https://packagist.org/downloads/",
@@ -63,7 +68,7 @@
                 "micro",
                 "router"
             ],
-            "time": "2017-02-19 13:43:33"
+            "time": "2017-02-19 15:20:06"
         }
     ],
     "packages-dev": [],
